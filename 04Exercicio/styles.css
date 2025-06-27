@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --clr-bg: rgb(192, 192, 192);
+    --clr-header: rgb(156, 226, 156);
+    --clr-main: rgb(214, 148, 148);
+    --clr-footer: rgb(149, 149, 204);
+
+    --clr-primary: rgb(70, 70, 70);
+}
+
+body{
+    background-color: var(--clr-bg);
+}
+
+header{
+    background-color: var(--clr-header);
+}
+
+main{
+    background-color: var(--clr-main);
+}
+
+footer{
+    background-color: var(--clr-footer);
+}
+
+.box{
+    color: var(--clr-font);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--clr-primary);
+}
