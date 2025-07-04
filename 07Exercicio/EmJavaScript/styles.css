@@ -61,8 +61,6 @@ body{
     color: var(--clr-font);
 }
 
-
-
 @media (max-width: 600px){
     /* Estiliza o ícone do menu hambúrguer */
     .ul-container{
@@ -101,10 +99,5 @@ body{
 
     .ul-container {
         display: none;
-    }
-
-/* Aqui é a magica, mostra o ☰ quando o checkbox for true */
-    #hamburger:checked + .icone + .ul-container {
-        display: block;
     }
 }
